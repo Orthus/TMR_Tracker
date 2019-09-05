@@ -1,0 +1,7 @@
+{
+	"IP_Address": "localhost",
+	"Port": 3000,
+	"DB_Address": "localhost",
+	"DB_Port": 28015,
+	"DB_Name": "test"
+}

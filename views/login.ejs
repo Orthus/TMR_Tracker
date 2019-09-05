@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="ISO-8859-1">
+        <title>Login</title>
+        <link href="/css/style.css" rel="stylesheet" type="text/css">
+    </head>
+<body class="login">
+    <%- include('partials/navigation.ejs', {active: "Search"}); %>
+    <div class="form">
+        <table border="1" width="100%" class="results">
+                        <th><%= authed %></th>
+     <tr>
+     <td>
+
+        <form action="/login" method="post">
+        <label>Username:</label>
+        <input type="text" name="username"/>
+        <br>
+        <label>Password:</label>
+        <input type="password" name="password"/>
+        <br>
+        <input type="submit" value="Log In"/>
+        </form>
+     </td>
+   </tr>
+</table>
+
+</div>
+        <%- include partials/footer.ejs %>
+
+</body

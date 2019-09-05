@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="ISO-8859-1">
+        <title>Register Page</title>
+        <link href="/css/style.css" rel="stylesheet" type="text/css">
+    </head>
+<body class="login">
+    <%- include('partials/navigation.ejs', {active: "Search"}); %>
+<form action="/register" method="post">
+    <div class="form">
+        <table border="1" width="100%" class="results">
+     <tr>
+
+     <td>
+        <form class="register">
+        <label>Username:</label>
+        <input type="text" name="newusername"/>
+        <br>
+        <label>Password:</label>
+        <input type="password" name="newpassword"/>
+        <br>
+        <input type="submit" value="Log In"/>
+        </form>
+     </td>
+   </tr>
+</table>
+
+</div>
+        <%- include partials/footer.ejs %>
+
+</body

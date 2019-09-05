@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link href="/css/style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<%- include('partials/navigation.ejs', {active: "Search"}); %>
+<div class="filters">
+	<table class="filter" style="width=80%" >
+		<tr>
+
+		</tr>
+		<tr>
+			<td>
+				<form class="search">
+				<select id="filer_id" name="filter_id">
+					<option value="TMR_NUMBER" selected="selected">TMR NUMBER</option>
+					<option value="TMR_Date" selected="selected">TMR Date</option>
+					<option value="Requesting_Unit" selected="selected">Unit</option>
+					<option value="Requested_Date" selected="selected">Requsted Date </option>
+					<option value="origin" selected="selected">Origin </option>
+					<option value="destination" selected="selected">Destination </option>
+					<option value="POC" selected="selected">POC </option>
+					<option value="Origin_POC_Cell" selected="selected">POC Cell </option>
+					<option value="POC_Email" selected="selected">POC Email </option>
+					<option value="Request_Date" selected="selected">Request Date </option>
+					<option value="Completion_Date" selected="selected">Completion Date </option>
+					<option value="Destination_POC" selected="selected">Destination POC </option>
+					<option value="Destination_POC_Cell" selected="selected">Destination POC Cell </option>
+					<option value="Sensitive" selected="selected">Sensitive </option>
+					<option value="Status" selected="selected">Status </option>
+				</select>
+					<input type="text" name="filter_value" placeholder=" ">	
+					<button type="submit" name="submit"><i class="material-icons">search</i></button>
+				</form>
+			</td>
+		</tr>
+		<tr>
+		</tr>
+		<tr>
+			<td colSpan="2" align="center">
+
+			</td>
+		</tr>
+	</table>
+</div>
+<div class="form">
+		<table border="1" width="100%" class="results">
+			<th>TMR Number</th>
+			<th>Requesting Unit</th>
+			<th>TMR Date</th>
+			<th>Requested Date</th>
+			<th>Editor</th>			
+<% for(var i=0; i < result.length; i++) { %>
+   <tr>
+     <td text-align><a href="/search/<%= result[i].TMR_Number %>"><%= result[i].TMR_Number %></a></td>
+     <td><%= result[i].Requesting_Unit %></td>
+     <td><%= result[i].TMR_Date %></td>
+     <td><%= result[i].Requested_Date %></td>
+     <td text-align><a href="/edit/<%= result[i].TMR_Number %>">Edit</a></td>
+
+   </tr>
+<% } %>
+</table>
+
+</div>
+</body>
+		<%- include partials/footer.ejs %>
+</html>

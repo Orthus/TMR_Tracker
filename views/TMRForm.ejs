@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Transportation Movement Requests</title>
+	</head>
+	<body>
+		<font face="arial">
+		<form action="/submit" method="post">
+			<table border="1">
+				<tr>
+					<td colSpan="2" align="center">
+						<h2>CJOC-J MCT</h2>
+						<h3>TRANSPORTATION MOVEMENT REQUEST (TMR)</h3>
+					</td>
+				</tr>
+				
+				<tr><td colSpan="2" align="center">These items are ordered under contract number: W52P1J-15-D-0055</td></tr>
+		
+				<tr>
+					<td colSpan="2"></td>
+				</tr>
+				
+				<tr>
+					<td align="center">TMR NUMBER:</td>
+					<td><input type="text" name="tmr_num" value="null"></td>
+				</tr>
+				<tr>
+					<td align="center">Date received at MCT for processing:</td>
+					<td><input type="text" name="tmr_date" value="null"></td>
+				</tr>
+		
+				<tr>
+					<td colSpan="2"></td>
+				</tr>
+				
+				<tr>
+					<td align="center">TMR STATUS:</td>
+					<td>
+						<select name="tmr_status">
+							<option value="">MCT ONLY</option>
+							<option value="approved">Approved</option>
+							<option value="notApproved">Not Approved</option>
+						</select>
+					</td>
+				</tr>
+
+				<tr>
+					<td>				
+						<table>
+							<tr>
+								<td>REQUESTING UNIT:</td>
+								<td><input type="text" name="req_unit" value="null"></td>
+								<td>DATE:</td>
+								<td><input type="text" name="RequestingDate" value="null"></td>
+							</tr>
+							<tr>
+								<td>POC:</td>
+								<td><input type="text" name="RequestingUnitPOC" value="null"></td>
+								<td>JORDANIAN CELL PHONE:</td>
+								<td><input type="text" name="JordanianCellPhone" value="null"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>EMAIL ADDRESS:</td>
+					<td><input type="text" name="EmailAddress" value="null"></td>
+				</tr>
+
+<!-- Origin -->
+				<tr>
+					<td colSpan="2" align="center" bgcolor="gray"><strong>ORIGIN</strong></td>
+				</tr>
+				
+				<tr>
+					<td>LOCATION:</td>
+					<td><input type="text" name="Location" value="null"></td>
+				</tr>
+				<tr>
+					<td>DATE/TIME:</td>
+					<td><input type="text" name="DateTime" value="null"></td>
+				</tr>
+				<tr colSpan="2">
+					<td>				
+						<table>
+							<tr>
+								<td>ORIGIN POC:</td>
+								<td>NAME:</td>
+								<td><input type="text" name="OriginName" value="null"></td>
+								<td>PHONE:</td>
+								<td><input type="text" name="OriginPhone" value="null"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+
+<!-- Destination -->
+				<tr>
+					<td colSpan="2" align="center" bgcolor="gray"><strong>DESTINATION</strong></td>
+				</tr>
+				
+				<tr>
+					<td>DESTINATION:</td>
+					<td><input type="text" name="Destination" value="null"></td>
+				</tr>
+				<tr>
+					<td>				
+						<table>
+							<tr>
+								<td>DESTINATION POC:</td>
+								<td>NAME:</td>
+								<td><input type="text" name="DestinationName" value="null"></td>
+								<td>PHONE:</td>
+								<td><input type="text" name="DestinationPhone" value="null"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>ESTIMATIED TIME OF COMPLETION:</td>
+					<td><input type="text" name="EstimationTimeOfCompletion" value="null"></td>
+				</tr>
+
+<!-- Equipment Description -->
+				<tr>
+					<td colSpan="2" align="center" bgcolor="gray"><strong>EQUIPMENT DESCRIPTION</strong></td>
+				</tr>
+				<tr>
+					<td colSpan="2">				
+						<table>
+							<tr>
+								<td>CONTAINER # / ITEM DESCRIPTION</td>
+								<td>LENGTH</td>
+								<td>WIDTH</td>
+								<td>HEIGHT</td>
+								<td>WEIGHT</td>
+							</tr>
+							<tr>
+								<td><input type="text" name="ItemDescrption_1" value="null"></td>
+								<td><input type="text" name="Length_1" value="null"></td>
+								<td><input type="text" name="Width_1" value="null"></td>
+								<td><input type="text" name="Height_1" value="null"></td>
+								<td><input type="text" name="Weight_1" value="null"></td>
+							</tr>
+							<tr>
+								<td><input type="text" name="ItemDescrption_2" value="null"></td>
+								<td><input type="text" name="Length_2" value="null"></td>
+								<td><input type="text" name="Width_2" value="null"></td>
+								<td><input type="text" name="Height_2" value="null"></td>
+								<td><input type="text" name="Weight_2" value="null"></td>
+							</tr>
+							<tr>
+								<td><input type="text" name="ItemDescrption_3" value="null"></td>
+								<td><input type="text" name="Length_3" value="null"></td>
+								<td><input type="text" name="Width_3" value="null"></td>
+								<td><input type="text" name="Height_3" value="null"></td>
+								<td><input type="text" name="Weight_3" value="null"></td>
+							</tr>
+							<tr>
+								<td><input type="text" name="ItemDescrption_4" value="null"></td>
+								<td><input type="text" name="Length_4" value="null"></td>
+								<td><input type="text" name="Width_4" value="null"></td>
+								<td><input type="text" name="Height_4" value="null"></td>
+								<td><input type="text" name="Weight_4" value="null"></td>
+							</tr>
+							<tr>
+								<td><input type="text" name="ItemDescrption_5" value="null"></td>
+								<td><input type="text" name="Length_5" value="null"></td>
+								<td><input type="text" name="Width_5" value="null"></td>
+								<td><input type="text" name="Height_5" value="null"></td>
+								<td><input type="text" name="Weight_5" value="null"></td>
+							</tr>
+							<tr>
+								<td><input type="text" name="ItemDescrption_6" value="null"></td>
+								<td><input type="text" name="Length_6" value="null"></td>
+								<td><input type="text" name="Width_6" value="null"></td>
+								<td><input type="text" name="Height_6" value="null"></td>
+								<td><input type="text" name="Weight_6" value="null"></td>
+							</tr>
+							<tr>
+								<td><input type="text" name="ItemDescrption_7" value="null"></td>
+								<td><input type="text" name="Length_7" value="null"></td>
+								<td><input type="text" name="Width_7" value="null"></td>
+								<td><input type="text" name="Height_7" value="null"></td>
+								<td><input type="text" name="Weight_7" value="null"></td>
+							</tr>
+							<tr>
+								<td><input type="text" name="ItemDescrption_8" value="null"></td>
+								<td><input type="text" name="Length_8" value="null"></td>
+								<td><input type="text" name="Width_8" value="null"></td>
+								<td><input type="text" name="Height_8" value="null"></td>
+								<td><input type="text" name="Weight_8" value="null"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+
+<!-- Passenger and Baggage Description -->
+				<tr>
+					<td colSpan="2" align="center" bgcolor="gray"><strong>PASSENGER AND BAGGAGE DESCRIPTION</strong></td>
+				</tr>
+				<tr>
+					<td>				
+						<table>
+							<tr>
+								<td>NUMBER OF PAX:</td>
+								<td><input type="text" name="NumberOfPAX" value="null"></td>
+								<td>NUMBER OF BAGS:</td>
+								<td><input type="text" name="NumberofBags" value="null"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+
+<!-- Assets Required for Transport -->
+				<tr>
+					<td colSpan="2" align="center" bgcolor="gray"><strong>ASSETS REQUIRED FOR TRANSPORT</strong></td>
+				</tr>
+				<tr>
+					<td>QTY</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td><input type="text" name="Quantity_1" value="null"></td>
+					<td>
+						<select id="Asset" name="Asset_1">
+							<option value="Null" selected="N/A"> </option>
+							<option value="FLATBED">FLATBED</option>
+							<option value="LOWBOY">LOWBOY</option>
+							<option value="HEAVY EQUIPMENT TRANSPORT (HET)">HEAVY EQUIPMENT TRANSPORT (HET)</option>
+							<option value="20' CARGO TRUCK">20' CARGO TRUCK</option>
+							<option value="25 PAX BUS">25 PAX BUS</option>
+							<option value="45 PAX BUS">45 PAX BUS</option>
+							<option value="BOBCAT">BOBCAT</option>
+							<option value="BACKHOE">BACKHOE</option>
+							<option value="GROVE RT530 CRANE">GROVE RT530 CRANE</option>
+							<option value="40K TRK CRANE CNTR HANDLR">40K TRK CRANE CNTR HANDLR</option>
+							<option value="10k FORKLIFT">10k FORKLIFT</option>
+							<option value="15k FORKLIFT">15k FORKLIFT</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="text" name="Quantity_2" value="null"></td>
+					<td>
+						<select id="Asset" name="Asset">
+							<option value="Null" selected="N/A"> </option>
+							<option value="FLATBED">FLATBED</option>
+							<option value="LOWBOY">LOWBOY</option>
+							<option value="HEAVY EQUIPMENT TRANSPORT (HET)">HEAVY EQUIPMENT TRANSPORT (HET)</option>
+							<option value="20' CARGO TRUCK">20' CARGO TRUCK</option>
+							<option value="25 PAX BUS">25 PAX BUS</option>
+							<option value="45 PAX BUS">45 PAX BUS</option>
+							<option value="BOBCAT">BOBCAT</option>
+							<option value="BACKHOE">BACKHOE</option>
+							<option value="GROVE RT530 CRANE">GROVE RT530 CRANE</option>
+							<option value="40K TRK CRANE CNTR HANDLR">40K TRK CRANE CNTR HANDLR</option>
+							<option value="10k FORKLIFT">10k FORKLIFT</option>
+							<option value="15k FORKLIFT">15k FORKLIFT</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="text" name="Quantity_3" value="null"></td>
+					<td>
+						<select id="Asset" name="Asset">
+							<option value="Null" selected="N/A"> </option>
+							<option value="FLATBED">FLATBED</option>
+							<option value="LOWBOY">LOWBOY</option>
+							<option value="HEAVY EQUIPMENT TRANSPORT (HET)">HEAVY EQUIPMENT TRANSPORT (HET)</option>
+							<option value="20' CARGO TRUCK">20' CARGO TRUCK</option>
+							<option value="25 PAX BUS">25 PAX BUS</option>
+							<option value="45 PAX BUS">45 PAX BUS</option>
+							<option value="BOBCAT">BOBCAT</option>
+							<option value="BACKHOE">BACKHOE</option>
+							<option value="GROVE RT530 CRANE">GROVE RT530 CRANE</option>
+							<option value="40K TRK CRANE CNTR HANDLR">40K TRK CRANE CNTR HANDLR</option>
+							<option value="10k FORKLIFT">10k FORKLIFT</option>
+							<option value="15k FORKLIFT">15k FORKLIFT</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="text" name="Quantity_4" value="null"></td>
+					<td>
+						<select id="Asset" name="Asset">
+							<option value="Null" selected="N/A"> </option>
+							<option value="FLATBED">FLATBED</option>
+							<option value="LOWBOY">LOWBOY</option>
+							<option value="HEAVY EQUIPMENT TRANSPORT (HET)">HEAVY EQUIPMENT TRANSPORT (HET)</option>
+							<option value="20' CARGO TRUCK">20' CARGO TRUCK</option>
+							<option value="25 PAX BUS">25 PAX BUS</option>
+							<option value="45 PAX BUS">45 PAX BUS</option>
+							<option value="BOBCAT">BOBCAT</option>
+							<option value="BACKHOE">BACKHOE</option>
+							<option value="GROVE RT530 CRANE">GROVE RT530 CRANE</option>
+							<option value="40K TRK CRANE CNTR HANDLR">40K TRK CRANE CNTR HANDLR</option>
+							<option value="10k FORKLIFT">10k FORKLIFT</option>
+							<option value="15k FORKLIFT">15k FORKLIFT</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="text" name="Quantity_5" value="null"></td>
+					<td>
+						<select id="Asset" name="Asset">
+							<option value="Null" selected="N/A"> </option>
+							<option value="FLATBED">FLATBED</option>
+							<option value="LOWBOY">LOWBOY</option>
+							<option value="HEAVY EQUIPMENT TRANSPORT (HET)">HEAVY EQUIPMENT TRANSPORT (HET)</option>
+							<option value="20' CARGO TRUCK">20' CARGO TRUCK</option>
+							<option value="25 PAX BUS">25 PAX BUS</option>
+							<option value="45 PAX BUS">45 PAX BUS</option>
+							<option value="BOBCAT">BOBCAT</option>
+							<option value="BACKHOE">BACKHOE</option>
+							<option value="GROVE RT530 CRANE">GROVE RT530 CRANE</option>
+							<option value="40K TRK CRANE CNTR HANDLR">40K TRK CRANE CNTR HANDLR</option>
+							<option value="10k FORKLIFT">10k FORKLIFT</option>
+							<option value="15k FORKLIFT">15k FORKLIFT</option>
+						</select>
+					</td>
+				</tr>
+
+				<tr>
+					<td colSpan="2" align="center" bgcolor="gray"></td>
+				</tr>
+
+				<tr>
+					<td>SENSITIVE ITEMS</td>
+					<td>
+						<select name="SensitiveItems">
+							<option value="NO" selected="selected">NO</option>
+							<option value="YES">YES</option>
+						</select>
+					</td>
+				</tr>
+
+<!-- Additional Reference -->
+				<tr>
+					<td colSpan="2" align="center" bgcolor="gray"><strong>ADDITIONAL REFERENCE</strong></td>
+				</tr>
+				<tr>
+					<td colSpan="2"><textarea name="AdditionalReference" rows="3" cols="80" value="null" /></textarea></td>
+				</tr>
+
+<!-- After Action Review to MCT After Mission Complete -->
+				<tr>
+					<td colSpan="2" align="center" bgcolor="gray"><strong>AFTER ACTION REVEIW TO MCT AFTER MISSION COMPLETE</strong></td>
+				</tr>
+				<tr>
+					<td colSpan="2">
+						<table>
+							<tr>
+								<td>TIME ASSETS ARRIVED:</td>				
+								<td><input type="text" name="TimeAssetsArrived"></td>
+								<td>DID ASSETS PERFORM IN A SATISFACTORY MANNER?</td>
+							</tr>
+						</table>
+						<table width="100%">
+							<tr>
+								<td width="30">MISSION COMPLETE TIME:</td>				
+								<td align="left"><input type="text" name="MissionCompleteTime"></td>
+								<td align="right"></td>
+								<td align="right">YES</td>
+								<td align="center"><input type="radio" name="AssetPerformance"></td>
+								<td align="right">NO</td>
+								<td align="center"><input type="radio" name="AssetPerformance"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>		
+			</table>
+			<input type="submit" class="ghost-button" value="Submit TMR">	
+		</form>
+		</font>
+	</body>
+</html>

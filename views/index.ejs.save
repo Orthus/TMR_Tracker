@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div class="container">
+      <fieldset>
+        <form action="/" method="post">
+          <input name="pk1_ability" type="text" class="ghost-input" placeholder="Enter Pokemon 1's Ability" required>
+	  <input name="pk1_attack" type="text" class="ghost-input" placeholder="Enter Attack Value" required>
+          <input name="pk1_defense" type="text" class="ghost-input" placeholder="Enter Defense Value" required>
+          <input name="pk1_hp" type="text" class="ghost-input" placeholder="Enter HP Value" required>
+          <input name="pk1_item" type="text" class="ghost-input" placeholder="Enter Held Item" required>
+          <input name="pk1_lvl" type="text" class="ghost-input" placeholder="Enter Current Level" required>
+          <input name="pk1_move1" type="text" class="ghost-input" placeholder="Enter Move 1" required>
+          <input name="pk1_move2" type="text" class="ghost-input" placeholder="Enter Move 2" required>
+          <input name="pk1_move3" type="text" class="ghost-input" placeholder="Enter Move 3" required>
+          <input name="pk1_move4" type="text" class="ghost-input" placeholder="Enter Move 4" required>
+          <input name="pk1_nature" type="text" class="ghost-input" placeholder="Enter Nature" required>
+          <input name="pk1_nickanme" type="text" class="ghost-input" placeholder="Enter Nickname" required>
+          <input name="pk1_pp1" type="text" class="ghost-input" placeholder="Enter PP for Move 1" required>
+          <input name="pk1_pp2" type="text" class="ghost-input" placeholder="Enter PP for Move 2" required>
+          <input name="pk1_pp3" type="text" class="ghost-input" placeholder="Enter PP for Move 3" required>
+          <input name="pk1_pp4" type="text" class="ghost-input" placeholder="Enter PP for Move 4 required>
+          <input name="pk1_spatk" type="text" class="ghost-input" placeholder="Enter Special Attack Value" required>
+          <input name="pk1_spdef" type="text" class="ghost-input" placeholder="Enter Special Defnese Value" required>
+          <input name="pk1_species" type="text" class="ghost-input" placeholder="Enter Species" required>
+          <input name="pk1_speed" type="text" class="ghost-input" placeholder="Enter Speed Value" required>
+          
+	  <input name="pk2_ability" type="text" class="ghost-input" placeholder="Enter Pokemon 2's Ability" required>
+          <input name="pk2_attack" type="text" class="ghost-input" placeholder="Enter Attack Value" required>
+          <input name="pk2_defense" type="text" class="ghost-input" placeholder="Enter Defense Value" required>
+          <input name="pk2_hp" type="text" class="ghost-input" placeholder="Enter HP Value" required>
+          <input name="pk2_item" type="text" class="ghost-input" placeholder="Enter Held Item" required>
+          <input name="pk2_lvl" type="text" class="ghost-input" placeholder="Enter Current Level" required>
+          <input name="pk2_move1" type="text" class="ghost-input" placeholder="Enter Move 1" required>
+          <input name="pk2_move2" type="text" class="ghost-input" placeholder="Enter Move 2" required>
+          <input name="pk2_move3" type="text" class="ghost-input" placeholder="Enter Move 3" required>
+          <input name="pk2_move4" type="text" class="ghost-input" placeholder="Enter Move 4" required>
+          <input name="pk2_nature" type="text" class="ghost-input" placeholder="Enter Nature" required>
+          <input name="pk2_nickanme" type="text" class="ghost-input" placeholder="Enter Nickname" required>
+          <input name="pk2_pp1" type="text" class="ghost-input" placeholder="Enter PP for Move 1" required>
+          <input name="pk2_pp2" type="text" class="ghost-input" placeholder="Enter PP for Move 2" required>
+          <input name="pk2_pp3" type="text" class="ghost-input" placeholder="Enter PP for Move 3" required>
+          <input name="pk2_pp4" type="text" class="ghost-input" placeholder="Enter PP for Move 4 required>
+          <input name="pk2_spatk" type="text" class="ghost-input" placeholder="Enter Special Attack Value" required>
+          <input name="pk2_spdef" type="text" class="ghost-input" placeholder="Enter Special Defnese Value" required>
+          <input name="pk2_species" type="text" class="ghost-input" placeholder="Enter Species" required>
+          <input name="pk2_speed" type="text" class="ghost-input" placeholder="Enter Speed Value" required>
+
+          <input name="pk3_ability" type="text" class="ghost-input" placeholder="Enter Pokemon 1's Ability" required>
+          <input name="pk3_attack" type="text" class="ghost-input" placeholder="Enter Attack Value" required>
+          <input name="pk3_defense" type="text" class="ghost-input" placeholder="Enter Defense Value" required>
+          <input name="pk3_hp" type="text" class="ghost-input" placeholder="Enter HP Value" required>
+          <input name="pk3_item" type="text" class="ghost-input" placeholder="Enter Held Item" required>
+          <input name="pk3_lvl" type="text" class="ghost-input" placeholder="Enter Current Level" required>
+          <input name="pk3_move1" type="text" class="ghost-input" placeholder="Enter Move 1" required>
+          <input name="pk3_move2" type="text" class="ghost-input" placeholder="Enter Move 2" required>
+          <input name="pk3_move3" type="text" class="ghost-input" placeholder="Enter Move 3" required>
+          <input name="pk3_move4" type="text" class="ghost-input" placeholder="Enter Move 4" required>
+          <input name="pk3_nature" type="text" class="ghost-input" placeholder="Enter Nature" required>
+          <input name="pk3_nickanme" type="text" class="ghost-input" placeholder="Enter Nickname" required>
+          <input name="pk3_pp1" type="text" class="ghost-input" placeholder="Enter PP for Move 1" required>
+          <input name="pk3_pp2" type="text" class="ghost-input" placeholder="Enter PP for Move 2" required>
+          <input name="pk3_pp3" type="text" class="ghost-input" placeholder="Enter PP for Move 3" required>
+          <input name="pk3_pp4" type="text" class="ghost-input" placeholder="Enter PP for Move 4 required>
+          <input name="pk3_spatk" type="text" class="ghost-input" placeholder="Enter Special Attack Value" required>
+          <input name="pk3_spdef" type="text" class="ghost-input" placeholder="Enter Special Defnese Value" required>
+          <input name="pk3_species" type="text" class="ghost-input" placeholder="Enter Species" required>
+          <input name="pk3_speed" type="text" class="ghost-input" placeholder="Enter Speed Value" required>
+
+          <input name="pk4_ability" type="text" class="ghost-input" placeholder="Enter Pokemon 1's Ability" required>
+          <input name="pk4_attack" type="text" class="ghost-input" placeholder="Enter Attack Value" required>
+          <input name="pk4_defense" type="text" class="ghost-input" placeholder="Enter Defense Value" required>
+          <input name="pk4_hp" type="text" class="ghost-input" placeholder="Enter HP Value" required>
+          <input name="pk4_item" type="text" class="ghost-input" placeholder="Enter Held Item" required>
+          <input name="pk4_lvl" type="text" class="ghost-input" placeholder="Enter Current Level" required>
+          <input name="pk4_move1" type="text" class="ghost-input" placeholder="Enter Move 1" required>
+          <input name="pk4_move2" type="text" class="ghost-input" placeholder="Enter Move 2" required>
+          <input name="pk4_move3" type="text" class="ghost-input" placeholder="Enter Move 3" required>
+          <input name="pk4_move4" type="text" class="ghost-input" placeholder="Enter Move 4" required>
+          <input name="pk4_nature" type="text" class="ghost-input" placeholder="Enter Nature" required>
+          <input name="pk4_nickanme" type="text" class="ghost-input" placeholder="Enter Nickname" required>
+          <input name="pk4_pp1" type="text" class="ghost-input" placeholder="Enter PP for Move 1" required>
+          <input name="pk4_pp2" type="text" class="ghost-input" placeholder="Enter PP for Move 2" required>
+          <input name="pk4_pp3" type="text" class="ghost-input" placeholder="Enter PP for Move 3" required>
+          <input name="pk4_pp4" type="text" class="ghost-input" placeholder="Enter PP for Move 4 required>
+          <input name="pk4_spatk" type="text" class="ghost-input" placeholder="Enter Special Attack Value" required>
+          <input name="pk4_spdef" type="text" class="ghost-input" placeholder="Enter Special Defnese Value" required>
+          <input name="pk4_species" type="text" class="ghost-input" placeholder="Enter Species" required>
+          <input name="pk4_speed" type="text" class="ghost-input" placeholder="Enter Speed Value" required
+
+          <input name="pk5_ability" type="text" class="ghost-input" placeholder="Enter Pokemon 1's Ability" required>
+          <input name="pk5_attack" type="text" class="ghost-input" placeholder="Enter Attack Value" required>
+          <input name="pk5_defense" type="text" class="ghost-input" placeholder="Enter Defense Value" required>
+          <input name="pk5_hp" type="text" class="ghost-input" placeholder="Enter HP Value" required>
+          <input name="pk5_item" type="text" class="ghost-input" placeholder="Enter Held Item" required>
+          <input name="pk5_lvl" type="text" class="ghost-input" placeholder="Enter Current Level" required>
+          <input name="pk5_move1" type="text" class="ghost-input" placeholder="Enter Move 1" required>
+          <input name="pk5_move2" type="text" class="ghost-input" placeholder="Enter Move 2" required>
+          <input name="pk5_move3" type="text" class="ghost-input" placeholder="Enter Move 3" required>
+          <input name="pk5_move4" type="text" class="ghost-input" placeholder="Enter Move 4" required>
+          <input name="pk5_nature" type="text" class="ghost-input" placeholder="Enter Nature" required>
+          <input name="pk5_nickanme" type="text" class="ghost-input" placeholder="Enter Nickname" required>
+          <input name="pk5_pp1" type="text" class="ghost-input" placeholder="Enter PP for Move 1" required>
+          <input name="pk5_pp2" type="text" class="ghost-input" placeholder="Enter PP for Move 2" required>
+          <input name="pk5_pp3" type="text" class="ghost-input" placeholder="Enter PP for Move 3" required>
+          <input name="pk5_pp4" type="text" class="ghost-input" placeholder="Enter PP for Move 4 required>
+          <input name="pk5_spatk" type="text" class="ghost-input" placeholder="Enter Special Attack Value" required>
+          <input name="pk5_spdef" type="text" class="ghost-input" placeholder="Enter Special Defnese Value" required>
+          <input name="pk5_species" type="text" class="ghost-input" placeholder="Enter Species" required>
+          <input name="pk5_speed" type="text" class="ghost-input" placeholder="Enter Speed Value" required>
+
+          <input name="pk6_ability" type="text" class="ghost-input" placeholder="Enter Pokemon 1's Ability" required>
+          <input name="pk6_attack" type="text" class="ghost-input" placeholder="Enter Attack Value" required>
+          <input name="pk6_defense" type="text" class="ghost-input" placeholder="Enter Defense Value" required>
+          <input name="pk6_hp" type="text" class="ghost-input" placeholder="Enter HP Value" required>
+          <input name="pk6_item" type="text" class="ghost-input" placeholder="Enter Held Item" required>
+          <input name="pk6_lvl" type="text" class="ghost-input" placeholder="Enter Current Level" required>
+          <input name="pk6_move1" type="text" class="ghost-input" placeholder="Enter Move 1" required>
+          <input name="pk6_move2" type="text" class="ghost-input" placeholder="Enter Move 2" required>
+          <input name="pk6_move3" type="text" class="ghost-input" placeholder="Enter Move 3" required>
+          <input name="pk6_move4" type="text" class="ghost-input" placeholder="Enter Move 4" required>
+          <input name="pk6_nature" type="text" class="ghost-input" placeholder="Enter Nature" required>
+          <input name="pk6_nickanme" type="text" class="ghost-input" placeholder="Enter Nickname" required>
+          <input name="pk6_pp1" type="text" class="ghost-input" placeholder="Enter PP for Move 1" required>
+          <input name="pk6_pp2" type="text" class="ghost-input" placeholder="Enter PP for Move 2" required>
+          <input name="pk6_pp3" type="text" class="ghost-input" placeholder="Enter PP for Move 3" required>
+          <input name="pk6_pp4" type="text" class="ghost-input" placeholder="Enter PP for Move 4 required>
+          <input name="pk6_spatk" type="text" class="ghost-input" placeholder="Enter Special Attack Value" required>
+          <input name="pk6_spdef" type="text" class="ghost-input" placeholder="Enter Special Defnese Value" required>
+          <input name="pk6_species" type="text" class="ghost-input" placeholder="Enter Species" required>
+          <input name="pk6_speed" type="text" class="ghost-input" placeholder="Enter Speed Value" required>
+
+    </div>
+  </body>
+</html>

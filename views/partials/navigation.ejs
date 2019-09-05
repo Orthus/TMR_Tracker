@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+
+<div class="topnav">
+<a <%if(active=="Home"){%>class="active"<%}%> href="/">Home</a>
+<a <%if(active=="Search"){%>class="active"<%}%> href="/Search">Search</a>
+<form action="/logout" method="get">
+	<button type="submit" name="submit"><i class="material-icons">arrow_right_alt</i></button>
+</form>
+<form action="/TMR/" method="get">
+	<button type="submit" name="submit"><i class="material-icons">search</i></button>
+	<input type="text" name="TMR_NUMBER" placeholder="TMR..">	
+</form>
+<a href='/<%= username %>'
+<a <%if(active=="About"){%>class="active"<%}%> href="/Export">CSV Export</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,113 @@
+
+/*
+  Styles from this codepen:
+  https://codepen.io/official_naveen/pen/rgknI
+*/
+
+body {
+  width: 900px;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #555555;
+}
+.form{
+  background-color: #fff;
+}
+.filters{
+  background-color: #fff;
+  float: left;
+  margin-left: 25%;
+}
+.submit input[type=submit] {
+  float: right;
+  padding: 8px;
+  border: none;
+  margin-right: 50%;
+  font-size: 17px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #c32135;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #ffdf00;
+  color: white;
+}
+.topnav button[type=submit] {
+  float: right;
+  padding: 1.5px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 0px;
+  font-size: 17px;
+}
+
+.login div.inner {
+float: right;
+margin-right: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  background-color: #555555;
+  overflow: hidden;
+  margin-top: 36px;
+}
+.footer a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+}
+table.results {
+  text-align: center;
+}
+form.search {
+  text-align: : center;
+}

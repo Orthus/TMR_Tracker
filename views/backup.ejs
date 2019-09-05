@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>TMR Test</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <p> EL TMR INPUT </p>
+    <div class="container">
+      <fieldset>
+        <form action="/submit" method="post">
+          <input name="tmr_num" type="text" class="ghost-input" placeholder="TMR Number" required>
+
+           <select name=desired_assets>
+            <option value="CSSB">CSSB</option>
+            <option value="HL7">HL7</option>
+            <option value="TAN">TAN</option>
+            <option value="CSSB_HL7">CSSB/HL7</option>
+            <option value="AWC_HL7">AWC/HL7</option>
+
+          </select> 
+
+          <input name="req_unit" type="text" class="ghost-input" placeholder="Requesting Unit" required>
+
+          <br>
+          
+          <input name="origin_poc" type="text" class="ghost-input" placeholder="Origin/Alterante POC" required>
+          <input name="origin_poc_DSN" type="text" class="ghost-input" placeholder="Origin/Alterante POC DSN" required>
+          <input name="origin_poc_Cell" type="text" class="ghost-input" placeholder="Origin/Alterante POC Cell" required>
+          <input name="origin_poc_Email" type="text" class="ghost-input" placeholder="Origin/Alterante POC Email" required>
+
+          <input name="dest_poc" type="text" class="ghost-input" placeholder="Destination/Alternate POC" required>
+          <input name="dest_poc_DSN" type="text" class="ghost-input" placeholder="Destination/Alternate POC DNS" required>
+          <input name="dest_poc_Cell" type="text" class="ghost-input" placeholder="Destination/Alternate POC Cell" required>
+          <input name="dest_poc_Email" type="text" class="ghost-input" placeholder="Destination/Alternate POC Email" required>
+          
+          <br>
+          
+          <input name="cdr_poc" type="text" class="ghost-input" placeholder="Commander POC" required>
+          <input name="cdr_poc_DSN" type="text" class="ghost-input" placeholder="Commander POC DSN" required>
+          <input name="cdr_poc_Cell" type="text" class="ghost-input" placeholder="Commander POC Cell" required>
+          <input name="cdr_poc_Email" type="text" class="ghost-input" placeholder="Commander POC Email" required>
+
+
+          <input name="high_poc" type="text" class="ghost-input" placeholder="Higher Command POC" required>
+          <input name="high_poc_DSN" type="text" class="ghost-input" placeholder="Higher Command POC DSN" required>
+          <input name="high_poc_Cell" type="text" class="ghost-input" placeholder="Higher Command POC Cell" required>
+          <input name="high_poc_Email" type="text" class="ghost-input" placeholder="Higher Command POC Email" required>
+
+          <br>
+          
+          <input name="request_date" type="text" class="ghost-input" placeholder="Requested Load Date" required>
+          <input name="request_time" type="text" class="ghost-input" placeholder="Requested Load Time" required>
+
+          <input name="alt_date" type="text" class="ghost-input" placeholder="Alternate Load Date" required>
+          <input name="alt_time" type="text" class="ghost-input" placeholder="Alternate Load Time" required>
+
+          <input name="req_delivery_date" type="text" class="ghost-input" placeholder="Required Delievery Date" required>
+          <input name="req_delivery_time" type="text" class="ghost-input" placeholder="Required Delievery Time" required>
+
+          <input name="priority" type="text" class="ghost-input" placeholder="Priority" required>
+          
+          <br>
+          
+          <input name="origin" type="text" class="ghost-input" placeholder="Origin" required>
+          <input name="destination" type="text" class="ghost-input" placeholder="Destination" required>
+          <p>Is the Cargo Hazardous or Sesitive?</p>
+          <input type="radio" name="IsHazSens" value="yes">No
+          <input type="radio" name="IsHazSens" value="no">Yes
+          <br>
+          <input name="HazSensDesc" type="text" class="ghost-input" placeholder="Description of Hazardous or sensitive cargo" required>
+
+          <br>
+
+          <input name="CargoNumbType" type="text" class="ghost-input" placeholder="Number and Type of Assets" required>
+
+          <br>
+
+          <input name="CargoClass" type="text" class="ghost-input" placeholder="Cargo and Class" required>
+
+          <br>
+          <input name="SpcReq" type="text" class="ghost-input" placeholder="Special Requirements" required>
+
+          <p>Does Convoy Require KMOI?</p>
+          <input type="radio" name="IsKMOI" value="yes">No
+          <input type="radio" name="IsKMOI" value="no">Yes
+          <p>In Support of K-Crossing?</p>
+          <input type="radio" name="IsKcross" value="yes">No
+          <input type="radio" name="IsKcross" value="no">Yes
+          <br>
+          <input type="submit" class="ghost-button" value="Submit TMR">
+        </form>
+        <!--<% if(result !== null){ %>
+          <p><%= JSON.stringify(result, null, 2) %></p>
+        <% } %>
+
+        <% if(error !== null){ %>
+          <p><%= error %></p>
+        <% } %>-->
+      </fieldset>
+    </div>
+  </body>
+</html>
