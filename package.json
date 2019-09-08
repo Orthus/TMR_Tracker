@@ -1,7 +1,7 @@
 {
-  "name": "openpanel",
+  "name": "TMR Manager",
   "version": "0.0.1",
-  "description": "Open Source Single User Control Panel",
+  "description": "Open Source TMR Management Software",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,9 +14,7 @@
   "author": "Zachary \"Orthusaku\" Daltorio",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/0rthusaku/OpenPanel/issues"
   },
-  "homepage": "https://gitlab.com/0rthusaku/OpenPanel#README",
   "dependencies": {
     "bcrypt": "^3.0.6",
     "bcrypt-nodejs": "0.0.3",
